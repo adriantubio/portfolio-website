@@ -36,6 +36,15 @@ main {
     font-size: var(--about-header-size);
 }
 
+.stack-header {
+    margin-top: 5rem;
+}
+
+.stack-body {
+    margin-top: 4.5rem;
+    height: 35vh;
+}
+
 .hero-description {
     font-size: 1.3rem;
 }
