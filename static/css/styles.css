@@ -1,0 +1,112 @@
+@media (max-width: 600px){
+    * {
+        --hero-font-size: 80px;
+        --img-width: 80%;
+        --about-header-size: 30px;
+    }
+}
+
+@media (min-width: 600px){
+    * {
+        --hero-font-size: 12vw;
+        --img-width: 30vw;
+        --about-header-size: 5vw;
+    }
+}
+
+* {
+    --hero-height: calc(100vh - 5rem);
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+main {
+    margin-top: 5rem;
+}
+
+.hero, .projects {
+    height: var(--hero-height);
+}
+
+.hero-header {
+    font-size: var(--hero-font-size);
+}
+
+.about-header, .stack-header {
+    font-size: var(--about-header-size);
+}
+
+.hero-description {
+    font-size: 1.3rem;
+}
+
+nav {
+    height: 5rem;
+}
+
+.me-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#about {
+    scroll-margin-top: 6rem;
+}
+
+#projects {
+    scroll-margin-top: 3rem;
+}
+
+.stack-item {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.stack-details, .about-details {
+    line-height: 30px;
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+
+}
+
+.project-title:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.project-title:visited {
+    color: black;
+}
+
+.project-description {
+    font-size: 0.8rem;
+}
+
+.project-item {
+    height: 600px;
+}
+
+.project-img-container {
+    height: 400px;
+}
+
+.front-end {
+    /* background-color: #F9EA9A; */
+}
+
+.back-end {
+    /* background-color: #5D3A00; */
+    color: black;
+}
