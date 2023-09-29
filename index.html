@@ -70,7 +70,7 @@
                         <h1 class="stack-header">My Stack</h1>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row stack-body">
                     <!-- TODO: Add Icons -->
                     <div class="col d-flex d-flex flex-column p-5 front-end">
                         <p class="stack-item">Front-end</p>
@@ -86,7 +86,81 @@
                     </div>
                 </div>
             </section>
+            <section id="projects" class=" projects container mx-1">
+                <div class=" row">
+                    <div class="col d-flex justify-content-center pt-5">
+                        <h1 class="stack-header">Projects</h1>
+                    </div>
+                </div>
+                <div class=" row">
+                    <!-- TODO: Adjust text style -->
+                    <div class=" col col-12 col-md-6 col-lg-3 project-item d-flex flex-column p-3">
+                        <div class="project-img-container">
+                            <img src="static/images/othello.png" alt="Othello Image" class="project-img">
+                        </div>
+                        <a class="project-title my-3" href="https://acgtubio.github.io/othello-game/">
+                            Othello Game
+                        </a>
+                        <p class="project-description text-center mx-3 mb-3">
+                            An othello board coded in React.js. Beat the AI, then email me for a very special reward!
+                        </p>
+                    </div>
+
+                    <div class=" col col-12 col-md-6 col-lg-3 project-item d-flex flex-column p-3">
+                        <div class="project-img-container">
+                            <img src="static/images/smoke_detector.jpeg" alt="Othello Image" class="project-img">
+                        </div>
+                        <a class="project-title my-3" href="">
+                            Smoke Detection using Machine Learning
+                        </a>
+                        <p class="project-description text-center mx-3 mb-3">
+                            Compared the performances of different machine learning algorithms for detecting smoke.
+                        </p>
+                    </div>
+
+                    <div class=" col col-12 col-md-6 col-lg-3 project-item d-flex flex-column p-3">
+                        <div class="project-img-container">
+                            <img src="static/images/drowsy.jpeg" alt="Othello Image" class="project-img">
+                        </div>
+                        <a class="project-title my-3" href="">
+                            Drowsiness Detection using LSTM
+                        </a>
+                        <p class="project-description text-center mx-3 mb-3">
+                            Used facial landmarks coordinates as input to train a drowsiness detector using LSTM.
+                        </p>
+                    </div>
+
+                    <div class=" col col-12 col-md-6 col-lg-3 project-item d-flex flex-column p-3">
+                        <div class="project-img-container">
+                            <img src="static/images/music.jpeg" alt="Othello Image" class="project-img">
+                        </div>
+                        <a class="project-title my-3" href="">
+                            AyakaBot: A music bot for Discord
+                        </a>
+                        <p class="project-description text-center mx-3 mb-3">
+                            A Discord music bot that uses YouTube search then scrapes the URLs used as input to play music.
+                        </p>
+                    </div>
+
+                    <div class=" col col-12 col-md-6 col-lg-3 project-item d-flex flex-column p-3">
+                        <div class="project-img-container">
+                            <img src="static/images/social_distancing.jpeg" alt="Othello Image" class="project-img">
+                        </div>
+                        <a class="project-title my-3" href="">
+                            Social Distancing Detector
+                        </a>
+                        <p class="project-description text-center mx-3 mb-3">
+                            Used OpenCV's perspective transform along with YOLOv5 to detect the distances between people
+                        </p>
+                    </div>
+                </div>
+            </section>
         </main>
-        
+
+        <footer>
+            <p>Adrian Tubio. 2023</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     </body>
 </html>
