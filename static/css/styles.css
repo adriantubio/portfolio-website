@@ -20,11 +20,20 @@
     font-family: Poppins;
 }
 
+footer {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 main {
     margin-top: 5rem;
 }
 
-.hero, .projects {
+.hero {
     height: var(--hero-height);
 }
 
